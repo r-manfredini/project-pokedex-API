@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon API</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="search-pokemon">
+          <div class="input-bx">
+            <input
+              class="input"
+              type="text"
+              placeholder="Procurar pelo nome ou código"
+            />
+          </div>
+          <div class="btn-icon" id="btnIcon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <!-- loading css -->
+        <div class="lds-ellipsis">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="card-display">
+          <div class="left-container">
+            <nav class="card-buttons-pokemon">
+              <ul class="card-list">
+                <li>
+                  <a class="card-btn btn-all active">
+                    <div class="icon">
+                      <img src="../images/icon-all.png" alt="" />
+                    </div>
+                    <span class="btn-span">All</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="right-container">
+             <div class="item-selected">
+            <span>Show</span>
+            <span class="type">All</span>
+            <span><i class="fa-solid fa-caret-down"></i></span>
+          </div>
+            <nav class="list-types-pokemon">
+              <ul class="list-types">
+                <li>
+                  <a class="poke-btn poke-all">
+                    <div class="icon">
+                      <img src="../images/icon-all.png" alt="" />
+                    </div>
+                    <span class="poke-span">All</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="card-count-container"></div>
+            <div class="card-container"></div>
+          </div>
+        </div>
+      </div>
+      <button id="btnMore" class="btn-more">Carregar mais Pokémon</button>
+    </main>
+    <footer>
+      <div class="social-media">
+        <div class="likedin">
+          <i class="fa-brands fa-linkedin font-size"></i>
+          <a
+            href="https://www.linkedin.com/in/renan-da-silva-8945441a8/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Renan da Silva
+          </a>
+        </div>
+        <div class="github">
+          <i class="fa-brands fa-github font-size"></i>
+          <a
+            href="https://github.com/r-manfredini"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @r-manfredini
+          </a>
+        </div>
+      </div>
+      Feito com
+      <i class="fa-solid fa-heart co"></i>
+      by
+      <b>Renan Silva</b>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
