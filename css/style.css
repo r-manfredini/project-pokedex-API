@@ -116,6 +116,7 @@ button {
   align-items: center;
   width: 28rem;
   gap: 20px;
+  margin-left: 20px;
 }
 
 .erro-poke img {
@@ -616,7 +617,19 @@ footer {
   bottom: 10%;
 }
 
-@media screen and (max-width: 768px) {
+/* ==========> MEDIA QUERIES <==========*/
+
+@media screen and (max-width: 575.98px) {
+  .card-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .card-container {
+    padding: 4rem 2rem 3rem 2rem !important;
+  }
   .card-display {
     display: block;
   }
@@ -668,9 +681,16 @@ footer {
     border: none;
     display: none;
   }
+
+  .card-pokemon {
+    width: 100% !important;
+  }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991.98px) {
+  body {
+    font-size: 14px;
+  }
   .container {
     padding: 20px;
   }
@@ -682,7 +702,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199.98px) {
   .card-container {
     padding-top: 4rem;
     padding-left: 2.5rem;
