@@ -672,9 +672,9 @@ footer {
     gap: 2rem;
   }
 
-  .arrow-down {
+  /* .arrow-down {
     padding: 0.6rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 767.98px) {
@@ -764,7 +764,7 @@ footer {
   }
 
   .arrow-down {
-    font-size: 12px !important;
+    display: none;
   }
 
   .header-img {
@@ -786,7 +786,7 @@ footer {
     padding-left: 2.5rem;
   }
 
-  .arrow-down {
+  /* .arrow-down {
     font-size: 16px;
-  }
+  } */
 }
