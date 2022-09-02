@@ -2,7 +2,7 @@
 
 :root {
   --main-color: #fafafa;
-  --second-color: #3e75c3;
+  --second-color: #ad1d41;
   --fire: #fddfdf;
   --grass: #defde0;
   --electric: #fcf7de;
@@ -88,6 +88,7 @@ button {
   color: #fafafa;
   display: inline-flex;
   padding: 1rem;
+  font-size: 24px;
   border-radius: 100%;
   transition: 0.4s;
   cursor: pointer;
@@ -670,9 +671,21 @@ footer {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+
+  .arrow-down {
+    padding: 0.6rem;
+  }
 }
 
 @media screen and (max-width: 767.98px) {
+  header {
+    height: 6.2rem;
+  }
+
+  .header-img {
+    max-width: 125px !important;
+  }
+
   .card-container {
     padding: 4rem 2rem 3rem 2rem !important;
   }
@@ -737,14 +750,25 @@ footer {
   body {
     font-size: 14px;
   }
+
   .container {
     padding: 20px;
   }
+
   .input-bx {
     width: 50%;
   }
+
   .left-container {
     max-width: 10.9rem;
+  }
+
+  .arrow-down {
+    font-size: 12px !important;
+  }
+
+  .header-img {
+    max-width: 150px;
   }
 }
 
@@ -753,10 +777,16 @@ footer {
     padding-top: 4rem;
     padding-left: 2.5rem;
   }
+
   .left-container {
     max-width: 15.9rem;
   }
+
   .card-count-container {
     padding-left: 2.5rem;
+  }
+
+  .arrow-down {
+    font-size: 16px;
   }
 }
