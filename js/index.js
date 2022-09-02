@@ -5,7 +5,6 @@ const input = document.querySelector('.input')
 const leftContainer = document.querySelector('.left-container')
 const rightContainer = document.querySelector('.right-container')
 const cardList = document.querySelector('.card-list')
-
 const itemSelected = document.querySelector('.item-selected')
 const listTypesPokemon = document.querySelector('.list-types-pokemon')
 const cardCountContainer = document.querySelector('.card-count-container')
@@ -148,6 +147,7 @@ function pokemonTypes() {
               for (var i = 0; i < currentButton.length; i++) {
                 currentButton[i].addEventListener('click', function () {
                   document.querySelector('.card-container').innerHTML = ''
+                  cardCountContainer.style.display = 'flex'
 
                   let current = document.getElementsByClassName('active')
                   current[0].className = current[0].className.replace(
