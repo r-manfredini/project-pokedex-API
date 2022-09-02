@@ -16,7 +16,22 @@
     />
   </head>
   <body>
-    <main>
+    <header>
+      <div class="header-container">
+        <div class="header-img">
+          <img src="./images/logo.png" alt="logo-pokemon" />
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="img-bx">
+        <img src="./images/pikachu-background.jpg" alt="" />
+      </div>
+      <a href="#bookmark" class="arrow-down">
+        <i class="fa-sharp fa-solid fa-arrow-down"></i>
+      </a>
+    </section>
+    <main id="bookmark">
       <div class="container">
         <div class="search-pokemon">
           <div class="input-bx">
@@ -30,14 +45,14 @@
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>
         </div>
-        <!-- loading css -->
-        <div class="lds-ellipsis">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
         <div class="card-display">
+          <!-- loading css -->
+          <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
           <div class="left-container">
             <nav class="card-buttons-pokemon">
               <ul class="card-list">
@@ -54,11 +69,11 @@
           </div>
 
           <div class="right-container">
-             <div class="item-selected">
-            <span>Show</span>
-            <span class="type">All</span>
-            <span><i class="fa-solid fa-caret-down"></i></span>
-          </div>
+            <div class="item-selected">
+              <span>Show</span>
+              <span class="type">All</span>
+              <span><i class="fa-solid fa-caret-down"></i></span>
+            </div>
             <nav class="list-types-pokemon">
               <ul class="list-types">
                 <li>

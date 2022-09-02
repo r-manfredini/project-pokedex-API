@@ -192,7 +192,7 @@ function createListPokemon() {
           .then((data) => {
             if (data.pokemon != '') {
               listTypes.innerHTML += `<li>
-          <a href="#" class="poke-btn poke-${data.name}" code-type="${data.id}" >
+          <a href="#bookmark" class="poke-btn poke-${data.name}" code-type="${data.id}" >
             <div class="icon"><img src="../images/${data.name}.png" alt="" /></div>
             <span class="poke-span">${data.name}</span>
           </a>
