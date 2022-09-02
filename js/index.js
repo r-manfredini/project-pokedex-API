@@ -298,7 +298,7 @@ function showTypesPokemon(data) {
 
 function numbersCount(count) {
   cardCountContainer.innerHTML = `<div class="card-count-img">
-                              <img src="../images/icon-all.png" alt="" />
+                              <img src="./images/icon-all.png" alt="" />
                            </div>
                            <span class="poke-numbers">${count} Pokémon</span>`
 }
