@@ -106,7 +106,7 @@ function searchPokemon() {
       preloader.style.display = 'none'
       return (cardContainer.innerHTML = `<div class="erro-poke">
         <div>
-         <img src="../images/icon-poke-red.png" alt="Zero Pokemon">
+         <img src="./images/icon-poke-red.png" alt="Zero Pokemon">
         </div>
         <span>Nenhum Pokémon corresponde à sua pesquisa! </span>
        </div>`)
@@ -134,7 +134,7 @@ function pokemonTypes() {
           .then((data) => {
             if (data.pokemon != '') {
               cardList.innerHTML += `<li>
-          <a href="#" class="card-btn btn-${data.name}" code-type="${data.id}" >
+          <a href="#bookmark" class="card-btn btn-${data.name}" code-type="${data.id}" >
             <div class="icon"><img src="../images/${data.name}.png" alt="" /></div>
             <span class="btn-span">${data.name}</span>
           </a>
@@ -193,7 +193,7 @@ function createListPokemon() {
             if (data.pokemon != '') {
               listTypes.innerHTML += `<li>
           <a href="#bookmark" class="poke-btn poke-${data.name}" code-type="${data.id}" >
-            <div class="icon"><img src="../images/${data.name}.png" alt="" /></div>
+            <div class="icon"><img src="./images/${data.name}.png" alt="" /></div>
             <span class="poke-span">${data.name}</span>
           </a>
         </li>`
