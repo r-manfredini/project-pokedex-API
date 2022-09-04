@@ -48,6 +48,12 @@ header {
 }
 section {
   position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/pikachu-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 main {
@@ -88,7 +94,6 @@ button {
   color: #fafafa;
   display: inline-flex;
   padding: 1rem;
-  font-size: 24px;
   border-radius: 100%;
   transition: 0.4s;
   cursor: pointer;
@@ -763,9 +768,9 @@ footer {
     max-width: 10.9rem;
   }
 
-  .arrow-down {
+  /* .arrow-down {
     display: none;
-  }
+  } */
 
   .header-img {
     max-width: 150px;
