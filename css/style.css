@@ -683,10 +683,6 @@ footer {
     height: 6.2rem;
   }
 
-  .header-img {
-    max-width: 125px !important;
-  }
-
   .card-container {
     padding: 4rem 2rem 3rem 2rem !important;
   }
@@ -762,10 +758,6 @@ footer {
 
   .left-container {
     max-width: 10.9rem;
-  }
-
-  .header-img {
-    max-width: 150px;
   }
 }
 
