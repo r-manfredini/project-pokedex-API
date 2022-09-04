@@ -676,10 +676,6 @@ footer {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-
-  /* .arrow-down {
-    padding: 0.6rem;
-  } */
 }
 
 @media screen and (max-width: 767.98px) {
@@ -768,10 +764,6 @@ footer {
     max-width: 10.9rem;
   }
 
-  /* .arrow-down {
-    display: none;
-  } */
-
   .header-img {
     max-width: 150px;
   }
@@ -790,8 +782,4 @@ footer {
   .card-count-container {
     padding-left: 2.5rem;
   }
-
-  /* .arrow-down {
-    font-size: 16px;
-  } */
 }
