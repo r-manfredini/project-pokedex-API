@@ -681,6 +681,10 @@ footer {
   .input-bx {
     width: 60% !important;
   }
+
+  .erro-poke {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 767.98px) {
@@ -766,7 +770,6 @@ footer {
   }
 
   .erro-poke {
-    width: 100%;
     margin: 0;
   }
 }

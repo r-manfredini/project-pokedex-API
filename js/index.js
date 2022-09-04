@@ -170,9 +170,6 @@ function pokemonTypes() {
 pokemonTypes()
 
 itemSelected.addEventListener('click', () => {
-  // if ((listTypesPokemon.style.display = 'none')) {
-  //   listTypesPokemon.style.display = 'flex'
-  // }
   listTypesPokemon.classList.toggle('list-active')
   cardCountContainer.style.display = 'flex'
 })
@@ -321,3 +318,11 @@ btnMore.addEventListener('click', () => {
 fetchPokemon(
   `https://pokeapi.co/api/v2/pokemon/?offset=${offset}&limit=${limit}`,
 )
+
+fetch('https://pokeapi.co/api/v2/')
+  .then((response) => {
+    return response
+  })
+  .then((data) => {
+    console.log(data)
+  })
