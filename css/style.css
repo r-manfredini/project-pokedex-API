@@ -764,6 +764,11 @@ footer {
   .left-container {
     max-width: 10.9rem;
   }
+
+  .erro-poke {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 1199.98px) {
