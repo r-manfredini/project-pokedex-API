@@ -135,7 +135,7 @@ function pokemonTypes() {
             if (data.pokemon != '') {
               cardList.innerHTML += `<li>
           <a href="#bookmark" class="card-btn btn-${data.name}" code-type="${data.id}" >
-            <div class="icon"><img src="../images/${data.name}.png" alt="" /></div>
+            <div class="icon"><img src="./images/${data.name}.png" alt="" /></div>
             <span class="btn-span">${data.name}</span>
           </a>
         </li>`
@@ -318,11 +318,3 @@ btnMore.addEventListener('click', () => {
 fetchPokemon(
   `https://pokeapi.co/api/v2/pokemon/?offset=${offset}&limit=${limit}`,
 )
-
-fetch('https://pokeapi.co/api/v2/')
-  .then((response) => {
-    return response
-  })
-  .then((data) => {
-    console.log(data)
-  })
